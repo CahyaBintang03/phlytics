@@ -3,7 +3,7 @@ import numpy as np
 
 # Menampilkan  halaman dashboard
 def dashboard():
-    st.markdown('<h1 style="color: #DA0C81;">Aplikasi Penentu pH Larutan</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 style="color: #DA0C81;">Aplikasi Penentu pH Larutan dan Penentu Indikator</h1>', unsafe_allow_html=True)
     st.write('Halo **users**, selamat datang di web kelompok 11'"\N{winking face}")
     st.write('Aplikasi <span style="color: #DA0C81;">**pHlytics**</span> ini dapat digunakan untuk menentukan nilai pH dengan cara menginput konsentrasi dan valensi dari suatu larutan, serta dapat menentukan indikator dengan cara menginput nilai dari pH suatu larutan', unsafe_allow_html=True)
     image1 = st.image("asset/header.png", use_column_width=True, width=None, clamp=False)
